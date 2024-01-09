@@ -11,7 +11,7 @@ class Header extends Component{
             <div>
                 <div className="main">
                     <ul>
-                        <li><img src={one} width="100px" height="100px" alt="description of image"/></li>
+                        <li><img src={one} width="100px" height="100px" alt="description of car"/></li>
                         <li className="titlespace"><h2 className="title">HCL PARKING LOT</h2></li>
                         <li className="selectDropDown"> <select  onChange={this.handleSelect}>
                         <option value="en">ENGLISH</option>
