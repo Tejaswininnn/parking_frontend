@@ -1,4 +1,4 @@
-ROM tomcat:latest
+FROM tomcat:latest
 LABEL maintainer="akash"
 
 COPY context.xml /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
